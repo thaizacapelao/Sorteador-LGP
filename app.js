@@ -1,5 +1,9 @@
 function sortear() {
-    let quantidade = document.querySelectorById('quantidade').value;
-    let de = document.querySelectorById('de').value;
-    let ate = document.querySelectorById('ate').value;
+    let quantidade = document.getElementById('quantidade').value;
+    let de = document.getElementById('de').value;
+    let ate = document.getElementById('ate').value;
+
+    alert(`Quantidade: ${quantidade}`);
+    alert(`Do número: ${de}`);
+    alert(`Até o Número: ${ate}`);
 }
